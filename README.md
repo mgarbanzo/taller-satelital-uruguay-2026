@@ -42,12 +42,4 @@ La [guía de cuentas](GUIA_CUENTAS.md) explica cuándo se usa cada acceso. No ne
 
 Lea las condiciones de cada fuente y conserve sus referencias. Los cuadernos especifican si se está usando una descarga nueva, una caché o una muestra incluida. Use sus propias cuentas e introduzca las credenciales únicamente cuando el cuaderno lo solicite.
 
-El banner está incorporado en cada `.ipynb`, por lo que no hace falta cargar el PNG por separado en Colab. También se incluye el PNG original.
-
-## Revisión de la colección
-
-Se unificaron portadas, títulos, jerarquía de secciones y separadores; se añadieron indicaciones de cuentas y registro. Se conservaron los nombres de archivo, los pasos existentes, los parámetros y las dependencias.
-
-Se verificó que las 69 celdas de código, sus salidas, sus metadatos y los datos de muestra son idénticos a los originales, y que los ocho cuadernos son válidos. Esta revisión editorial no volvió a ejecutar las descargas ni los análisis científicos.
-
 Instrucciones de cuentas revisadas el 19 de noviembre de 2026.
