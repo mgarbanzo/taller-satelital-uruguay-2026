@@ -5,7 +5,7 @@
 **Cuadernos de formación · Uruguay · Noviembre de 2026**  
 AEMET y EUMETSAT, con apoyo de AECID
 
-Ocho prácticas para acceder a datos, revisar su calidad, interpretar los resultados y repetir el análisis en otra región. Cada cuaderno incluye sus requisitos, instrucciones y parámetros.
+Trece cuadernos para acceder a datos, revisar su calidad, interpretar los resultados y repetir el análisis en otra región. Cada cuaderno incluye sus requisitos, instrucciones y parámetros.
 
 ## Comience aquí
 
@@ -23,12 +23,42 @@ Ocho prácticas para acceder a datos, revisar su calidad, interpretar los result
 | :--- | :--- | :--- | :--- |
 | 01 | [SST · Acceso a datos de EUMETSAT](SST_EUMETSAT_Colab_Drive.ipynb) | EUMETSAT para nuevas descargas; el respaldo incluido y la caché válida no requieren autenticarse otra vez. | Google Colab y Google Drive |
 | 02 | [SST · Visualización con NASA Worldview](SST_NASA_Worldview_Colab_Drive.ipynb) | Ninguna cuenta del proveedor: la consulta de imágenes NASA GIBS es pública. | Google Colab y Google Drive |
-| 03 | [SST · Data Tailor y EUMDAC en Panamá](FINAL_EUMDAC_SST_Panama_AEMET.ipynb) | EUMETSAT solo en el modo descarga. Los modos muestra y consulta no necesitan cuenta EUMETSAT. | Google Colab o Jupyter / Anaconda de 64 bits |
-| 04 | [ASCAT · Viento oceánico frente a Uruguay](FINAL_ASCAT_NOAA_EUMDAC_Uruguay.ipynb) | Ninguna en la ruta predeterminada NOAA. EUMETSAT es opcional, solo para la ruta eumdac. | Google Colab o Jupyter / Anaconda de 64 bits |
-| 05 | [GPM / GMI · Microondas sobre Uruguay](FINAL_GPM_GMI_37_89GHz_Uruguay.ipynb) | NASA Earthdata para descargar granulos. La consulta del catálogo es pública y el modo local no necesita iniciar sesión. | Google Colab o Jupyter / Anaconda de 64 bits |
-| 06 | [IMERG · Precipitación diaria](FINAL_IMERG_Diario_Uruguay_Colab_Drive.ipynb) | NASA Earthdata para nuevas descargas Early, Late o Final. Solo Drive reutiliza los archivos ya guardados. | Google Colab y Google Drive |
-| 07 | [SPEI · Duración e intensidad de la sequía](FINAL_SPEI_CSIC_Colab_Uruguay.ipynb) | Ninguna cuenta del proveedor: los NetCDF de SPEIbase del CSIC se descargan públicamente. | Google Colab y Google Drive |
-| 08 | [NDVI · Diez años de vegetación](FINAL_NDVI_MODIS_Series_Uruguay_Colab.ipynb) | Ninguna cuenta del proveedor: esta práctica utiliza la API pública TESViS de ORNL DAAC. | Google Colab o Jupyter / Anaconda de 64 bits |
+| 03 | [SST · Data Tailor y EUMDAC en Panamá](SST_EUMDAC_Panama.ipynb) | EUMETSAT solo en el modo descarga. Los modos muestra y consulta no necesitan cuenta EUMETSAT. | Google Colab o Jupyter / Anaconda de 64 bits |
+| 04 | [ASCAT · Viento oceánico frente a Uruguay](ASCAT_NOAA_EUMDAC_Uruguay.ipynb) | Ninguna en la ruta predeterminada NOAA. EUMETSAT es opcional, solo para la ruta eumdac. | Google Colab o Jupyter / Anaconda de 64 bits |
+| 05 | [GPM / GMI · Microondas sobre Uruguay](GPM_GMI_37_89GHz_Uruguay.ipynb) | NASA Earthdata para descargar gránulos. La consulta del catálogo es pública y el modo local no necesita iniciar sesión. | Google Colab o Jupyter / Anaconda de 64 bits |
+| 06 | [IMERG · Precipitación diaria](IMERG_PrecipitacionDiaria_Uruguay.ipynb) | NASA Earthdata para nuevas descargas Early, Late o Final. Solo Drive reutiliza los archivos ya guardados. | Google Colab y Google Drive |
+| 07 | [SPEI · Duración e intensidad de la sequía](SPEI_CSIC_Uruguay.ipynb) | Ninguna cuenta del proveedor: los NetCDF de SPEIbase del CSIC se descargan públicamente. | Google Colab y Google Drive |
+| 08 | [NDVI · Diez años de vegetación](NDVI_MODIS_SeriesTiempo_Uruguay.ipynb) | Ninguna cuenta del proveedor: esta práctica utiliza la API pública TESViS de ORNL DAAC. | Google Colab o Jupyter / Anaconda de 64 bits |
+
+## Estudios de caso y visores
+
+| Cuaderno | Actividad |
+| --- | --- |
+| [Huracán Julia · altimetría en Nicaragua](Julia_Altimetria_EUMDAC_Nicaragua.ipynb) | Examine la anomalía del nivel del mar y la altura significativa de ola a lo largo de las pasadas de Sentinel. La descarga con EUMDAC requiere credenciales de EUMETSAT. |
+| [GOES ABI · radiancia volcánica](INSIVUMEH_GOES_16_18_19_C07_Radiancia_Exacta_12h.ipynb) | Calcule la diferencia entre el máximo y la media espacial de radiancia del canal 7 y siga su evolución con una media móvil de 12 horas. |
+| [GOES · ceniza volcánica](INSIVUMEH_GOES_16_18_19_RGB_Animaciones_24h.ipynb) | Compare composiciones RGB y anime secuencias de GOES-19 para seguir la evolución de una pluma. |
+| [Landsat 8 y 9 · observación de volcanes](INSIVUMEH_Landsat_Clase_V2_Leyendas_Espectrales.ipynb) | Seleccione una escena, compare composiciones de bandas e índices espectrales y revise las máscaras de calidad. |
+| [Visor de meteorología sinóptica y vegetación](Visor_Meteorologia_ENDVI10_America_Climatologia_2026.ipynb) | Ejecute las celdas en Colab y abra el enlace de la última celda para explorar GOES, GFS, ECMWF, ASCAT y las series de vegetación ENDVI10. |
+
+## Productos del taller
+
+Figuras guardadas en los cuadernos. Seleccione una imagen para verla a tamaño completo.
+
+**Viento oceánico observado por ASCAT** · [Abrir cuaderno](ASCAT_NOAA_EUMDAC_Uruguay.ipynb)
+
+[![Viento oceánico observado por ASCAT](docs/productos/ascat.png)](docs/productos/ascat.png)
+
+**Anomalía del nivel del mar y altura significativa de ola durante Julia** · [Abrir cuaderno](Julia_Altimetria_EUMDAC_Nicaragua.ipynb)
+
+[![Anomalía del nivel del mar y altura significativa de ola durante Julia](docs/productos/julia.png)](docs/productos/julia.png)
+
+**Observaciones de microondas del radiómetro GMI** · [Abrir cuaderno](GPM_GMI_37_89GHz_Uruguay.ipynb)
+
+[![Observaciones de microondas del radiómetro GMI](docs/productos/gmi.png)](docs/productos/gmi.png)
+
+**Sequía meteorológica según el índice SPEI** · [Abrir cuaderno](SPEI_CSIC_Uruguay.ipynb)
+
+[![Sequía meteorológica según el índice SPEI](docs/productos/spei.png)](docs/productos/spei.png)
 
 ## Enlaces para crear las cuentas
 
